@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -12,26 +13,28 @@
 </head>
 <body>
     <header class="header">
-        <a class="logo link" href="index.html"><span class="web">Web</span>Studio</a>
+    <div class="header-container container">
+            <div class="header-logo"><a class="logo link" href="index.html"><span class="web">Web</span>Studio</a></div>
         <nav class="navigator-menu">
-            <ul class="navigator-list list">
+            <div class="container"><ul class="navigator-list list">
             <li class="navigator-item"><a class="navigator-link link active" href="index.html">Студія</a></li>
             <li class="navigator-item"><a class="navigator-link link" href="portfolio.html">Портфоліо</a></li>
             <li class="navigator-item"><a class="navigator-link link" href="">Контакти</a></li>
-        </ul>
+        </ul></div>
         </nav>
-        <ul class="header-contacts-list list">
+        <div class="container"><ul class="header-contacts-list list">
             <li class="header-contacts-item"><a class="header-contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li class="header-contacts-item"><a class="header-contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        </ul></div>
+    </div>
     </header>
     <main>
-        <section class="hero">
-            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-            <button class="hero-btn" type="button"><span class="hero-btn-text">Замовити послугу</span></button>
+        <section class="hero section">
+            <div class="container"><h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+            <button class="hero-btn" type="button">Замовити послугу</button></div>
         </section>
         <section class="character">    
-        <h2 class="visually-hidden">Про нас</h2>
+        <div class="section container"><h2 class="visually-hidden">Про нас</h2>
             <ul class="character-list list">
                 <li class="character-item">
                     <h3 class="character-title">Увага до деталей</h3>
@@ -49,18 +52,18 @@
                     <h3 class="character-title">Сучасні технології</h3>
                     <p class="character-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
-            </ul>
+            </ul></div>
         </section>
         <section class="work">
-            <h2 class="work-title">Чим ми займаємося</h2>
+            <div class="container section"><h2 class="work-title">Чим ми займаємося</h2>
             <ul class="work-list list">
                 <li class="work-item"><img src="./images/main/work/box-1.jpg" alt="work" width="370" height="294"></li>
                 <li class="work-item"><img src="./images/main/work/box-2.jpg" alt="work" width="370" height="294"></li>
                 <li class="work-item"><img src="./images/main/work/box-3.jpg" alt="work" width="370" height="294"></li>
-            </ul>
+            </ul></div>
         </section>
         <section class="team">
-            <h2 class="team-title-h2">Наша команда</h2>
+            <div class="container section"><h2 class="team-title-h2">Наша команда</h2>
             <ul class="team-list list">
                 <li class="team-item">
                     <img src="./images/main/team/team-1.jpg" alt="team" width="270" height="260">
@@ -82,18 +85,19 @@
                     <h3 class="team-title">Михайло Єрмаков</h3>
                     <p class="team-text">UI Designer</p>
                 </li>
-            </ul>
+            </ul></div>
         </section>
     </main>
     <footer class="footer">
-        <a class="logo link" href="index.html"><span class="web">Web</span><span class="studio">Studio</span></a>
+        <div class="container">
+            <div class="footer-logo"><a class="logo link" href="index.html"><span class="web">Web</span><span class="studio">Studio</span></a></div>
         <adress>
             <ul class="footer-contacts-list list">
                 <li class="footer-adress-item"><a class="footer-adress-link link" href="https://goo.gl/maps/XNjeUNWpdiMwEfmY7" target="_blank" rel="noreferrer noopener">м. Київ, пр-т Лесі Українки, 26</a></li>
                 <li class="footer-contacts-item"><a class="footer-contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li class="footer-contacts-item"><a class="footer-contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </adress>
+        </adress></div>
     </footer>
 </body>
 </html>

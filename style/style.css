@@ -2,6 +2,16 @@ body {
     font-family: 'Roboto', sans-serif;
     color: black;
 }
+h1,
+h2,
+h3,
+p {
+    margin:0;
+}
+ul {
+    margin: 0;
+    padding-left: 0;
+}
 .link {
     text-decoration: none;
 }
@@ -19,7 +29,19 @@ body {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-}  
+  }
+.container {
+    width: 100%;
+max-width: 1230px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 :root {
     --brand-color: #2196F3;
     --background-color: #2F303A;
@@ -36,6 +58,26 @@ color: black;
 }
 .web {
 color: var(--brand-color);
+}
+.header-logo {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.navigator-list {
+    display: flex;
+    gap: 50px;
+    padding: 32px 0;
+}
+.header-contacts-list {
+    display: flex;
+    gap: 50px;
+    padding: 32px 0;
+    justify-content: flex-end;
 }
 .navigator-link {
     font-weight: 500;
@@ -74,21 +116,22 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
+margin-bottom: 30px;
 }
 .hero-btn {
     background: var(--brand-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
+border: 0;
 cursor: pointer;
-}
-.hero-btn-text {
-    font-weight: 700;
+font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
+padding: 10px 32px;
 }
 /* character */
 .character-title {
@@ -98,6 +141,7 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
+margin-bottom: 10px;
 }
 .character-text {
     font-size: 14px;
@@ -113,8 +157,12 @@ line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+margin-bottom: 50px;
 }
 /* team */
+.team {
+    background-color: #F5F4FA;
+}
 .team-title-h2 {
     font-weight: 700;
 font-size: 36px;

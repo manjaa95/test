@@ -107,10 +107,13 @@ color: var(--text-color);
 /* hero */
 .hero {
     background-color: var(--background-color);
-    height: 600px;
 }
 .hero-container {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
 }
 .hero-title {
     max-width: 696px;

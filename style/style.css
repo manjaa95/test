@@ -161,6 +161,9 @@ color: var(--text-color);
 width: 270px;
 }
 /* work */
+.work {
+    padding-top: 0;
+}
 .work-list {
     display: flex;
     gap: 30px;

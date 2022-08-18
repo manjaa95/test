@@ -107,8 +107,11 @@ color: var(--text-color);
 /* hero */
 .hero {
     background-color: var(--background-color);
+    height: 600px;
 }
 .hero-title {
+    display: flex;
+    max-width: 696px;
     font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -132,8 +135,13 @@ text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 padding: 10px 32px;
+min-width: 216px;
 }
 /* character */
+.character-list {
+    display: flex;
+    gap: 30px;
+}
 .character-title {
     font-weight: 700;
 font-size: 14px;
@@ -148,6 +156,7 @@ margin-bottom: 10px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--text-color);
+width: 270px;
 }
 /* work */
 .work-title {

@@ -175,6 +175,7 @@ margin-bottom: 50px;
 /* team */
 .team {
     background-color: #F5F4FA;
+    height: 648px;
 }
 .team-list {
     display: flex;
@@ -245,9 +246,17 @@ color: var(--text-color);
 /* footer */
 .footer {
     background-color: var(--background-color);
+    height: 252px;
 }
 .studio {
     color: #FFFFFF;
+}
+.footer-logo {
+padding-top: 60px;
+margin-bottom: 20px;
+}
+.footer-adress-item {
+    margin-bottom: 9px;
 }
 .footer-adress-link {
     font-size: 14px;
@@ -255,11 +264,15 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
+.footer-contacts-item:not(:last-child) {
+    margin-bottom: 9px;
+}
 .footer-contacts-link {
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+
 }
 .footer-contacts-link:hover,
 .footer-contacts-link:focus {

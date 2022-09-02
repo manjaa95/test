@@ -4,14 +4,12 @@ body {
     font-size: 14px;
     line-height: 1.14;
     background-color: #ffffff;
-  
     @media screen and (min-width: 768px) {
       font-size: 16px;
       line-height: 1.19;
     }
-  }
-  
-  .section {
+}
+.section {
     padding-top: 60px;
     padding-bottom: 60px;
   
@@ -19,15 +17,13 @@ body {
       padding-top: 100px;
       padding-bottom: 100px;
     }
-  }
-  
-  .is-hidden {
+} 
+.is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-  }
-  
-  .no-scroll {
+}
+.no-scroll {
     overflow: hidden;
   }
 p,
@@ -39,7 +35,6 @@ h5,
 h6 {
   margin: 0;
 }
-
 ul,
 ol {
   margin: 0;
@@ -54,7 +49,6 @@ a {
 address {
   font-style: normal;
 }
-
 img {
   display: block;
   max-width: 100%;
@@ -91,25 +85,14 @@ img {
       padding-left: 16px;
       padding-right: 16px;
     }
-}  
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+} 
 .title {
     font-size: 28px;
     line-height: 1.17;
-  
     @media screen and (min-width: 768px) {
       font-size: 42px;
       line-height: 1.16;
     }
-  }
-  
-:root {
-    --brand-color: #2196F3;
-    --background-color: #2F303A;
-    --text-color: #757575;
 }
 /* offerings */
 .offerings {

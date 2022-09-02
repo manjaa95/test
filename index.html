@@ -13,7 +13,52 @@
     <title>Веб-студія</title>
 </head>
 <body>
-    <header class="header">
+    <section class="offerings section">
+        <div class="container">
+        <ul class="apple">
+            <li class="apple__item">
+                <picture class="apple__picture">
+                    <source 
+                    srcset="./src/images/offerings/desktop/apple-desktop-1x.png 1x,
+                    ./src/images/offerings/desktop/apple-desktop-2x.png 2x,
+                    ./src/images/offerings/desktop/apple-desktop-3x.png 3x"
+                    media="(min-width1280px)"
+                    source 
+                    srcset="./src/images/offerings/tablet/apple-tablet-1x.png 1x,
+                    ./src/images/offerings/tablet/apple-tablet-2x.png 2x,
+                    ./src/images/offerings/tablet/apple-tablet-3x.png 3x"
+                    media="(min-width768px)"
+                    source 
+                    srcset="./src/images/offerings/mob/apple-mob-1x.png 1x,
+                    ./src/images/offerings/mob/apple-mob-1x.png 2x,
+                    ./src/images/offerings/mob/apple-mob-1x.png 3x"
+                    media="(min-width480px)"
+                    />
+                    <img src="./src/images/offerings/mob/apple-mob-1x.png" alt="team" width="201.6" height="255.55">
+            </picture>
+            </li>
+        </ul>
+        <div class="main">
+        <h2 class="main__title title">What’s Special About Our Offerings</h2>
+        <p class="main__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+        </div>
+        <ul class="about">
+    <li class="about__item">
+        <h3 class="about__title about__title__rocket">Fasest Delivery</h3>
+        <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+    </li>
+    <li class="about__item">
+        <h3 class="about__title about__title__touch">Easy to order</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+    </li>
+        </ul>
+        <ul class="btn-list">
+        <li class="btn__item"><button type="button" class="btn btn--size">Order Now</button></li>
+        <li class="btn__item"><a href="" class="read-more" target="_blank" rel="noreferrer noopener">Read More</a></li>
+        </ul>
+    </div>
+    </section>
+    <!-- <header class="header">
     <div class="header-container container">
             <div class="header-logo"><a class="logo link" href="index.html"><span class="web">Web</span>Studio</a></div>
         <nav class="navigator-menu">
@@ -418,7 +463,7 @@
                   <button class="modal-btn" type="submit">Відправити</button>
             </form>
         </div>
-    </div>
+    </div> -->
     <script src="./js/modal.js"></script>
 </body>
 </html>
